@@ -33,8 +33,10 @@ module my_first_nft::my_nft {
         name: string::String,
     }
 
+    // 模块的One-Time-Witness.
     struct MY_NFT has drop {}
 
+    // 显示
     fun init(otw: MY_NFT, ctx: &mut TxContext) {
         let keys = vector[utf8(b"name"), utf8(b"description"), utf8(b"image_url")];
         let values = vector[utf8(b"{name}"), utf8(b"{description}"), utf8(b"{image_url}")];
