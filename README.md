@@ -1,5 +1,6 @@
-# hello_sui
-Hello Sui
+# Hello Sui
 Sui Move学习项目
 
-参考：[星航计划](https://github.com/movefuns/SuiStartrek)
+- [学习日志](journal.md)
+- [学习总结](summary.md)
+- 参考：[星航计划](https://github.com/movefuns/SuiStartrek)
